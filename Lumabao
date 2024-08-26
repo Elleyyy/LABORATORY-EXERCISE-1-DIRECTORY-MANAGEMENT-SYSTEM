@@ -20,4 +20,15 @@ cout << "Press Enter to Continue \n";
 cin.get();
 }
 
+void changeDirectory() {
+cout << "Enter directory to switch to: ";
+string dirName;
+cin >> dirName;
+cout << "Now in: C: \\Users\\UserName\\" << dirName << "\n;
+cin.ignore().get();
+cout << "Press Enter to continue \n;
+cin.get();
+}
+
+
 
