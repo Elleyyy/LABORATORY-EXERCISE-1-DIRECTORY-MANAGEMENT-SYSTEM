@@ -30,5 +30,18 @@ cout << "Press Enter to continue \n;
 cin.get();
 }
 
+int main() {
+while (true) {
+cout << "\nMAIN MENU\n";
+cout << "1. Files List\n";
+cout << "2. Create Directory\n";
+cout << "3. Change Directory\n";
+cout << "4. Exit\n" ;
+cout << "Select an option: ";
+int choice;
+cin >> choice;
+
+
+
 
 
