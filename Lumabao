@@ -4,7 +4,7 @@
 using namespace std;
 
 void listFiles() {
-cout << "Files in the directory:\n";
+cout << "Filesin the directory:\n";
 cout << "file1.txt\nfile2.cpp\nreport.doc\nimage.png\n";
 cout << "Press Enter to continue \n";
 cin.ignore().get();
