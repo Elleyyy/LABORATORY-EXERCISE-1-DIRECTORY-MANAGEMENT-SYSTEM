@@ -57,6 +57,7 @@ case 4:
 return 0;
 default:
 cout << "Invalid choice, please try again.\n";
+break;
 }
 }
 }
