@@ -10,3 +10,14 @@ cout << "Press Enter to continue \n";
 cin.ignore().get();
 }
 
+void createDirectory() {
+cout << "Enter directory name: ";
+string dirName;
+cin >> dirName;
+cout << "Directory '" << dirName << " 'create!\n";
+cin.ignore().get();
+cout << "Press Enter to Continue \n";
+cin.get();
+}
+
+
